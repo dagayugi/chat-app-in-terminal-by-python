@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "chat-app-on-terminal"
+version = "0.1.0"
+description = ""
+authors = ["dagayugi <yoshioka.ta97@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cohere = "^5.3.3"
+pydantic = "^2.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
